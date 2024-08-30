@@ -111,7 +111,6 @@
   INSERT INTO Teacher (Name, Designation, Address, Email)
   VALUES ('John Doe', 'Professor', '123 Elm St, Springfield', 'johndoe@example.com'),
   ('Jane Smith', 'Lecturer', '456 Oak St, Springfield', 'janesmith@example.com');
-</br>
 
 4. **Update Data** 
 
