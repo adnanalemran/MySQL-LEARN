@@ -106,19 +106,17 @@
    );
 
 3. **Insert Data**
+   ```sql
+   INSERT INTO Teacher (Name, Designation, Address, Email)
+   VALUES 
+   ('John Doe', 'Professor', '123 Elm St, Springfield', 'johndoe@example.com'),
+   ('Jane Smith', 'Lecturer', '456 Oak St, Springfield', 'janesmith@example.com');
 
-  ```sql
-  INSERT INTO Teacher (Name, Designation, Address, Email)
-  VALUES ('John Doe', 'Professor', '123 Elm St, Springfield', 'johndoe@example.com'),
-  ('Jane Smith', 'Lecturer', '456 Oak St, Springfield', 'janesmith@example.com');
 
 4. **Update Data** 
-
-  ```sql
-  UPDATE Teacher
-  SET joinDate = '2024-01-15'
-  WHERE TeacherID = 1;
-  
-  UPDATE Teacher
-  SET joinDate = '2024-02-20'
-  WHERE TeacherID = 2;
+   ```sql
+   UPDATE Teacher
+   SET joinDate = '2024-01-15'
+   WHERE TeacherID = 1;
+   UPDATE Teacher
+   SET joinDate = '2024-02-20'WHERE TeacherID = 2;
