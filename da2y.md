@@ -12,7 +12,7 @@ DCL (Data Control Language) : grant & revoke permission to users
 TCL (Transaction Control Language) : start transaction, commit, rollback €
 
 ---
-[DAY 1](day1.md) 
+ 
 
 ### Create Database 
 ```sql
@@ -23,9 +23,13 @@ CREATE DATABASE database_Name;
 DROP DATABESE databes_Name
 ```
 ### Create Table
-
 ```sql
-CREATE TABLE student( id INT PRIMARY KEY, name VARCHAR(50), age INT NOT NULL );
+CREATE TABLE student( 
+-- column_name1 datatype constraint, 
+    id INT PRIMARY KEY,
+    name VARCHAR(50),
+    age INT NOT NULL
+ );
 
 ```
 ### insart data
@@ -39,3 +43,7 @@ like :
 ```sql
 DROP DATABESE IF EXISTS databes_Name
 ```
+
+### delete table
+```sql
+DROP TABLE student;
