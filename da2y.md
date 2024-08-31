@@ -34,3 +34,8 @@ CREATE TABLE student( id INT PRIMARY KEY, name VARCHAR(50), age INT NOT NULL );
 INSERT INTO student VALUES(1,'adnan',24)
 ```
 
+best prectice `IF EXISTS`
+like : 
+```sql
+DROP DATABESE IF EXISTS databes_Name
+```
