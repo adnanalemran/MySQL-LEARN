@@ -1,3 +1,4 @@
+[ReadME](readme.md)  
 # Day 1 Notes
 
 ## 1. Data Definition Language (DDL)

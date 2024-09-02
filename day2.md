@@ -1,4 +1,5 @@
 
+[ReadME](readme.md)  
 ## Types of SQL Commands 
 
 DDL (Data Definition Language) : create, alter, rename, truncate & drop. 
