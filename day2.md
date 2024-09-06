@@ -3,12 +3,16 @@
  
 # MySQL Integrity Constraints: Quick Reference
 
-### 1. Primary Key Constraint
-### 2. Foreign Key Constraint
-### 3. Unique Constraint 
-### 4.Not Null Constraint 
-### 5. Check Constraint
-Lab COde : 
+<ol> 
+    <li> Primary Key Constraint</li>
+    <li> Foreign Key Constraint</li>
+    <li> Unique Constraint </li>
+    <li> Not Null Constraint </li>
+    <li> Check Constraint </li>
+</ol>
+
+ 
+Lab Code : 
 
 step1: create Database
 ```sql
