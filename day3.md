@@ -53,3 +53,10 @@ SET PhoneNumber = CASE ID
     ELSE PhoneNumber
 END;
  ```
+
+## col name  change 
+
+```sql 
+ALTER TABLE `Persons`
+CHANGE `Address` `Permanent_Address` VARCHAR(255);
+```
