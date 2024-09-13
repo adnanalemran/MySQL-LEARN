@@ -1,6 +1,6 @@
 # Step-by-Step Guide to Modify the `Persons` Table
 
-## Step 1: Create the Initial Table
+## Step : Create the Initial Table
 
 First, create a table named `Persons`:
 
@@ -40,3 +40,16 @@ UPDATE Persons SET PhoneNumber = '555-0000';
 ```sql
 ALTER TABLE Persons MODIFY COLUMN PhoneNumber varchar(20);
 ```
+
+## Step 4: Update Existing Records with Sample Phone Numbers
+
+```sql
+UPDATE Persons
+SET PhoneNumber = CASE ID
+    WHEN 1 THEN '555-0001'
+    WHEN 2 THEN '555-0002'
+    WHEN 3 THEN '555-0003'
+    WHEN 4 THEN '555-0004'
+    ELSE PhoneNumber
+END;
+ ```
