@@ -17,6 +17,15 @@ CREATE TABLE Persons
 ```
 
  ## Step : insart 4 data on  Persons table 
+ ```sql 
+ INSERT INTO Persons (FirstName, LastName, Address, Email)
+VALUES 
+('John', 'Doe', '123 Main St', 'john.doe@example.com'),
+('Jane', 'Smith', '456 Elm St', 'jane.smith@example.com'),
+('Alice', 'Johnson', '789 Oak St', 'alice.johnson@example.com'),
+('Bob', 'Brown', '101 Pine St', 'bob.brown@example.com');
+
+```
  ## Step : Add a New Column
 Add a new column named PhoneNumber:
 ```sql
